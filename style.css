@@ -46,7 +46,7 @@ background: var(--paleblue);
          DEFAULT
 ***************************/
 #preloader{
-    background: #fff url(/img/45124d126d0f0b6d8f5c4d635d466246.gif) no-repeat center center;
+    background: #fff url(img/45124d126d0f0b6d8f5c4d635d466246.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -506,7 +506,7 @@ display:none !important;
 main{
 width:100%;
 height:105vh;
-background-image:url("/img/banner.jpg");
+background-image:url("img/banner.jpg");
 background-size:cover;
 display:flex;
 align-items:center;
@@ -516,7 +516,7 @@ position:relative;
 
 main:after{
 content:"";
-background-image:url("/img/wave.png");
+background-image:url("img/wave.png");
 background-size:100% 100%;
 position:absolute;
 bottom:-1%;
